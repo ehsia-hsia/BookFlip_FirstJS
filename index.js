@@ -9,6 +9,7 @@ function myFunction2() {
     } else {
         bookButton.style.backgroundImage = "url(https://i0.wp.com/www.tor.com/wp-content/uploads/2018/05/MidnightRobber-crop.jpg?fit=740%2C+9999&crop=0%2C0%2C100%2C385px&ssl=1)";
         bookButton.style.backgroundSize = "contain";
+
     }
 }
 
@@ -25,5 +26,7 @@ function myFunction3() {
         bookButton1.style.backgroundImage = "url(https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1537451432l/37877850.jpg)";
         bookButton1.style.backgroundSize = "contain";
         bookButton1.style.backgroundPosition = "center";
+        let text = document.querySelector('#captionBinti');
+        text.innerHTML = "red";
     }
 }

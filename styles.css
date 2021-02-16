@@ -3,12 +3,13 @@
   }
   body {
     padding: 20px;
+    background-color: black;
   }
   
   .books {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: .5fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
     grid-gap: 1rem;
     width: 50%;
   }
@@ -49,6 +50,17 @@
     background-image: url(https://images-na.ssl-images-amazon.com/images/I/81IICHFn4LL.jpg);
     background-size: cover;
     background-position:center top;
-   
+
+}
+
+#captionBinti{
+    position: absolute;
+    bottom: 150px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 
 }
