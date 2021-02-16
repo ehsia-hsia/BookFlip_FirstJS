@@ -7,19 +7,18 @@
   
   .books {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: .5fr 1fr;
     grid-gap: 1rem;
+    width: 50%;
   }
   
-  
+
   .image{
-    grid-row: 2;
     width: 350px;
     height: 350px;
     position: relative;
     z-index: -1;
-    background-image: url(https://images-na.ssl-images-amazon.com/images/I/61h6zjbZxKL.jpg);
     background-size: cover;
     border: solid;
     border-radius: 50%;
@@ -40,3 +39,16 @@
     border-width: 1px;
   }
   
+
+  #nalo{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/61h6zjbZxKL.jpg);
+
+}
+
+#binti{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/81IICHFn4LL.jpg);
+    background-size: cover;
+    background-position:center top;
+   
+
+}
