@@ -39,15 +39,24 @@ let green = document.getElementById("green");
 
 let curItem = [blue, red, green];
 
+
+let oldB = ["url(https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg)", "url(https://static01.nyt.com/images/2020/04/22/science/22VIRUS-PETCATS1/22VIRUS-PETCATS1-mediumSquareAt3X.jpg)", "url(https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2020-07/kitten-510651.jpg?h=f54c7448&itok=ZhplzyJ9)"];
+
+blue.style.backgroundImage = oldB[0];
+red.style.backgroundImage = oldB[1];
+green.style.backgroundImage = oldB[2];
+
+
+
 let backG = ["url(https://i0.wp.com/www.tor.com/wp-content/uploads/2018/05/MidnightRobber-crop.jpg?fit=740%2C+9999&crop=0%2C0%2C100%2C385px&ssl=1)", "url(https://upload.wikimedia.org/wikipedia/en/7/77/Midnight_Robber.jpg)", "url(https://images-na.ssl-images-amazon.com/images/I/61h6zjbZxKL.jpg)"];
 
 for (let i = 0; i < curItem.length; i++) { // assign i 
     curItem[i].addEventListener("click", myFunction);
 
     function myFunction() {
+        if (curItem[i].style.backgroundImage.src == "url(backG[i])") {
+            curItem[i].style.backgroundImage = (oldB[i])
 
-        if (curItem[i].style.backgroundColor.match("white")) {
-            curItem[i].style.backgroundImage = (backG[i]);
         } else {
             curItem[i].style.backgroundImage = (backG[i]);
         }
