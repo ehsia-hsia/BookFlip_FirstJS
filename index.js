@@ -22,6 +22,7 @@ function myFunction3() {
         bookButton1.style.backgroundImage = "url(https://images-na.ssl-images-amazon.com/images/I/81IICHFn4LL.jpg)";
         bookButton1.style.backgroundSize = "cover";
         bookButton1.style.backgroundPosition = "center top";
+        text.innerHTML = "cat";
     } else {
         bookButton1.style.backgroundImage = "url(https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1537451432l/37877850.jpg)";
         bookButton1.style.backgroundSize = "contain";
