@@ -64,3 +64,18 @@
     
 
 }
+
+
+
+.image2{
+  height: 200px;
+  width: 200px;
+  border: solid;
+  background-color: white;
+}
+
+#green{
+  background-color: green;
+  background-size: contain;
+  
+}
